@@ -4,7 +4,7 @@ class database
 	public $con = '';
 	function __construct()
 	{
-		$this->con = new mysqli('localhost','dasienin','dasien1234!@','dasienin_analytics');		
+		$this->con = new mysqli('host','username','password','database_name');		
 	}
 	public function create_manufature($value='')
 	{	
